@@ -1,0 +1,52 @@
+<div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 100px;">
+    <div class="outer" fxLayout="column" fxLayoutAlign="center center" ngClass.xs="class" ngClass.sm="class1">
+        <form [formGroup]="LoginForm " (ngSubmit)="onSubmit()">
+            <div fxLayout="column" fxLayoutAlign="center center">
+                <h1>
+                    <span style="color: blue;">F</span>
+                    <span style="color: red;">u</span>
+                    <span style="color: orange;">n</span>   
+                    <span style="color: blue;">d</span>
+                    <span style="color: green;">o</span>
+                    <span style="color: red;">o</span>
+                </h1>
+                <h2>Sign in</h2>
+                <p>Use your Fundoo Account</p>
+            </div>
+            <div >
+                <div fxLayout="column" class="label">
+                    <mat-form-field class="designEmail" appearance="outline">
+                        <mat-label>Email or Phone</mat-label>
+                        <input matInput placeholder="Email" formControlName="Email">
+                        <mat-error>Enter valid Email id</mat-error>
+                    </mat-form-field>
+                    <div div fxLayout="row" fxLayoutAlign="start center" >
+                        <button mat-button class="buttonStyleForForgot" routerLink="/forgetpassword">Forgot Password?</button>
+
+                    </div>
+                    
+                </div>
+                <div fxLayout="column" fxLayoutAlign="center center" class="label">
+                    <mat-form-field class="designEmail" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput placeholder="Password" formControlName="Password">
+                        <mat-error>Enter valid password</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="note">
+                    <p>Not your computer? Use Guest mode to sign in privately.</p>
+                </div>
+                <div class="learn" fxLayout="row" fxLayoutAlign="start center">
+                    <p>Learn more</p>
+                </div>
+                <div class="Spacesforbutton" fxLayout="row" fxLayoutAlign="space-between center">
+                    <button  fxLayout="row" fxLayoutAlign="start center" class="buttonStyleforCreate" routerLink="/register">Create account</button>
+                       
+                    <button class="buttonStyleforNext" fxLayoutAlign="center center">Next</button>
+
+                </div>
+      
+            </div>
+            </form>
+    </div>
+</div>

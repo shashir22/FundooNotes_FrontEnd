@@ -1,0 +1,112 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 20px;
+  }
+  .example-button-row {
+    display: table-cell;
+    width: 300px;
+  }
+  .flexitem{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    padding-top: 50px;
+    align-content: center;
+  }
+  .borderStyle{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    width: 48%;
+    margin-top: 70px;
+    // justify-content: center;
+    // align-items: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 90%;
+    border-radius: 10px;
+  }
+  
+  .Spaces .mat-form-field + .mat-form-field{
+    margin-left: 5px;
+    // width: fit-content;
+  }
+  .topMarginUserBox
+  {
+     padding-top: 0px;
+  }
+  .userbutton .mat-form-field + .mat-form-field
+  {
+    font-size: small; color: gray; padding-top: 20px;
+    margin-top: 90%;
+  }
+  .Spacesforbutton 
+  {
+    color: blue;
+    margin-top: 60px;
+  }
+  .imgSize
+     {
+       border: 5px solid yellow;
+       float: right; 
+       width: 200px;
+       height: 300px; 
+       margin: 0 auto;
+       padding-left: 500px;
+       flex-wrap: nowrap;
+     }
+     .spacebetweenUpDown
+     {
+       display: flex;
+     }
+     .buttonStyle
+     {
+      display: flex;
+       border: 0px;
+       background-color: white;
+       color: blue;
+       font-size: 100%;
+     
+     }
+     .buttonStyle1
+     {
+      display: flex;
+       border: 0px;
+       color: black;
+       font-size: large;
+     
+     }
+     .buttonStyleforNext
+      {
+        border: 0px;
+        color: white;
+        background-color: blue;
+        height: 40px;width: 100px;
+        border-radius: 6px;
+      }
+      .account{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        // border: 60px;
+        font-size: medium;
+        align-items:center;
+        // width: 30%;
+        // height: 15%;
+        }
+      .ShowCheckbox
+      {
+        padding-top: 20px;
+      }
+      .register-xs
+      {
+        width: 100%;
+      }
+       .wording{font-size: small;padding-left: 3px;}
+      .xssize{
+        width: 100%;
+      }
+      .xssize1{
+        width: 80%;
+      }

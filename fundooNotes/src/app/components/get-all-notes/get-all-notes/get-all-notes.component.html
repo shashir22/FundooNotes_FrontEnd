@@ -1,0 +1,8 @@
+ <!-- <app-create-note></app-create-note> -->
+<!-- <app-display></app-display> -->
+<!-- <p>hi hello</p>  -->
+<!-- <app-create-note></app-create-note>
+<app-display [recievedNoteList]="noteList"></app-display> -->
+<app-create-note (messageEvent)="displayMessage($event)"></app-create-note>
+<!-- <app-display (displayEvent)="displayMessage($event)"></app-display> -->
+<app-display [recievedNoteList]="noteList" (displayEvent)="displayMessage($event)" ></app-display>
